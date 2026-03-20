@@ -34,6 +34,12 @@ O dataset contém:
 - num_orders: Quantidade de pedidos (nossa variável alvo).
 
 # 📈 Resultados e Conclusão
+
 Após testar múltiplos modelos (SARIMAX, LinearRegression, RandomForest e XGBoost), o modelo final foi selecionado com base no equilíbrio entre:
 - Qualidade de Predição: Atingindo um REQM inferior a 48 no conjunto de teste.
 - Velocidade: Otimização do tempo de treinamento e predição para uso em tempo real.
+
+# 🚀 Instalação e Configuração do Ambiente
+
+- Para garantir a reprodutibilidade dos resultados e evitar conflitos de versões, este projeto utiliza um arquivo de dependências rigoroso. 
+- O comando pip install -r requirements.txt configurará o ambiente perfeitamente, instalando de forma automatizada todas as bibliotecas de Processamento de Dados, Séries Temporais e Machine Learning (incluindo as versões exatas de Pandas, XGBoost e Scikit-learn) utilizadas no desenvolvimento deste modelo.
